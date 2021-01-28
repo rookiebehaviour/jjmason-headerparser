@@ -1,10 +1,13 @@
 {
 	"name": "request_header",
 	"version": "0.0.1",
-	"description": "API project for freeCodeCamp",
+	"description": "Request header parser microservice",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
+	},
+	"engines": {
+		"node": "12.x"
 	},
 	"dependencies": {
 		"express": "^5.0.0-alpha.2",
@@ -13,12 +16,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/rookiebehaviour/jjmason-headerparser"
 	},
 	"keywords": [
 		"node",
 		"hyperdev",
-		"express"
+		"express",
+		"heroku"
 	],
 	"license": "MIT"
 }
